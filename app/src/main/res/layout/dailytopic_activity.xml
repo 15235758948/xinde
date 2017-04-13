@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/orange">
+        <TextView
+            android:id="@+id/mydaily_1_fh"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginLeft="8dp"
+            android:drawableLeft="@drawable/ic_chevron_left_black_24dp"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:text="每日一题"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="8dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <TextView
+            android:text="《暴君》中是谁开枪打死了反抗军的士兵"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView20"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp" />
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:src="@drawable/test2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/imageView21" />
+        <TextView
+            android:text="《暴君》中是谁开枪打死了反抗军的士兵"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp" />
+    </RelativeLayout>
+
+    <TextView
+
+        android:text="A 男主角"
+        android:textColor="@drawable/selector_text_press_color"
+        android:clickable="true"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="45dp"
+        android:id="@+id/mydaily_a" />
+
+    <TextView
+        android:textColor="@drawable/selector_text_press_color"
+        android:clickable="true"
+        android:text="B 男主角的哥哥"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/mydaily_b" />
+
+    <TextView
+        android:textColor="@drawable/selector_text_press_color"
+        android:clickable="true"
+        android:text="C 男主角的爸爸"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/mydaily_c" />
+
+    <TextView
+        android:textColor="@drawable/selector_text_press_color"
+        android:clickable="true"
+        android:text="D 政府军的士兵"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp"
+        android:id="@+id/mydaily_d" />
+
+</LinearLayout>

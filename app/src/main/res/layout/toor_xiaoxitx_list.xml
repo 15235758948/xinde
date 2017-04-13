@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:id="@+id/relative_list"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="360dp">
+    <View
+       android:id="@+id/relative_view"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/gainsboro"/>
+    <TextView
+        android:id="@+id/xiaoxitx_pinlun"
+        android:layout_below="@+id/relative_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:drawableLeft="@drawable/cebian_shoucang"
+        android:drawablePadding="15dp"
+        android:drawableRight="@drawable/jiantou"
+        android:gravity="center_vertical"
+        android:text="评论"
+        android:textColor="@drawable/selector_text_press_color"
+        android:textSize="20dp" />
+    <View
+        android:layout_below="@+id/xiaoxitx_pinlun"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gainsboro"/>
+    <TextView
+        android:id="@+id/xiaoxitx_tiezi"
+        android:layout_below="@+id/xiaoxitx_pinlun"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:drawableLeft="@drawable/cebian_shoucang"
+        android:drawablePadding="15dp"
+        android:drawableRight="@drawable/jiantou"
+        android:gravity="center_vertical"
+        android:text="帖子回复"
+        android:textColor="@drawable/selector_text_press_color"
+        android:textSize="20dp" />
+    <View
+        android:layout_below="@+id/xiaoxitx_tiezi"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gainsboro"/>
+    <TextView
+        android:id="@+id/xiaoxitx_wenzhang"
+        android:layout_below="@+id/xiaoxitx_tiezi"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:drawableLeft="@drawable/cebian_shoucang"
+        android:drawablePadding="15dp"
+        android:drawableRight="@drawable/jiantou"
+        android:gravity="center_vertical"
+        android:text="文章回复"
+        android:textColor="@drawable/selector_text_press_color"
+        android:textSize="20dp" />
+    <View
+        android:layout_below="@+id/xiaoxitx_wenzhang"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gainsboro"/>
+    <TextView
+        android:id="@+id/xiaoxitx_haoyou"
+        android:layout_below="@+id/xiaoxitx_wenzhang"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:drawableLeft="@drawable/cebian_shoucang"
+        android:drawablePadding="15dp"
+        android:drawableRight="@drawable/jiantou"
+        android:gravity="center_vertical"
+        android:text="好友动态"
+        android:textColor="@drawable/selector_text_press_color"
+        android:textSize="20dp" />
+    <View
+        android:layout_below="@+id/xiaoxitx_haoyou"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gainsboro"/>
+    <TextView
+        android:id="@+id/xiaoxitx_shop"
+        android:layout_below="@+id/xiaoxitx_haoyou"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:drawableLeft="@drawable/cebian_shoucang"
+        android:drawablePadding="15dp"
+        android:drawableRight="@drawable/jiantou"
+        android:gravity="center_vertical"
+        android:text="购物车"
+        android:textColor="@drawable/selector_text_press_color"
+        android:textSize="20dp" />
+    <View
+        android:layout_below="@+id/xiaoxitx_shop"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gainsboro"/>
+    <TextView
+        android:id="@+id/diaoxitx_guanfang"
+        android:layout_below="@+id/xiaoxitx_shop"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:drawableLeft="@drawable/cebian_shoucang"
+        android:drawablePadding="15dp"
+        android:drawableRight="@drawable/jiantou"
+        android:gravity="center_vertical"
+        android:text="官方通知"
+        android:textColor="@drawable/selector_text_press_color"
+        android:textSize="20dp" />
+</RelativeLayout>
+<RelativeLayout
+    android:layout_below="@+id/relative_list"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+    <View
+        android:id="@+id/relative_view1"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/gainsboro"/>
+    <TextView
+        android:layout_below="@+id/relative_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:drawableLeft="@drawable/cebian_shoucang"
+        android:drawablePadding="15dp"
+        android:gravity="center_vertical"
+        android:text="官方通知"
+        android:textColor="@drawable/selector_text_press_color"
+        android:textSize="20dp" />
+    <TextView
+        android:text="正在进行  5  个活动"
+        android:paddingRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/textView" />
+
+</RelativeLayout>
+</LinearLayout>

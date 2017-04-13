@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/my_xiaoxi"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:clickable="true"
+                android:drawableLeft="@drawable/icon_xiaoxi"
+                android:drawablePadding="15dp"
+                android:drawableRight="@drawable/jiantou"
+                android:gravity="center_vertical"
+                android:text="消息中心"
+                android:textColor="@drawable/selector_text_press_color"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/gainsboro" />
+
+            <TextView
+                android:id="@+id/my_guankan"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:clickable="true"
+                android:drawableLeft="@drawable/icon_lishi"
+                android:drawablePadding="15dp"
+                android:drawableRight="@drawable/jiantou"
+                android:gravity="center_vertical"
+                android:text="观看历史"
+                android:textColor="@drawable/selector_text_press_color"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/gainsboro" />
+
+            <TextView
+                android:id="@+id/my_huancun"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:clickable="true"
+                android:drawableLeft="@drawable/icon_huancun"
+                android:drawablePadding="15dp"
+                android:drawableRight="@drawable/jiantou"
+                android:gravity="center_vertical"
+                android:text="我的缓存"
+                android:textColor="@drawable/selector_text_press_color"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/gainsboro" />
+
+            <TextView
+                android:id="@+id/my_shoucang"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:clickable="true"
+                android:drawableLeft="@drawable/icon_shoucang"
+                android:drawablePadding="15dp"
+                android:drawableRight="@drawable/jiantou"
+                android:gravity="center_vertical"
+                android:text="我的收藏"
+                android:textColor="@drawable/selector_text_press_color"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/gainsboro" />
+
+            <TextView
+                android:id="@+id/my_dingyue"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:clickable="true"
+                android:drawableLeft="@drawable/icon_dingyue"
+                android:drawablePadding="15dp"
+                android:drawableRight="@drawable/jiantou"
+                android:gravity="center_vertical"
+                android:text="我的订阅"
+                android:textColor="@drawable/selector_text_press_color"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/gainsboro" />
+
+            <TextView
+                android:id="@+id/my_quanzi"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:clickable="true"
+                android:drawableLeft="@drawable/icon_quanzi"
+                android:drawablePadding="15dp"
+                android:drawableRight="@drawable/jiantou"
+                android:gravity="center_vertical"
+                android:text="我的圈子"
+                android:textColor="@drawable/selector_text_press_color"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/gainsboro" />
+
+            <TextView
+                android:id="@+id/my_friends"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:clickable="true"
+                android:drawableLeft="@drawable/incon_haoyou"
+                android:drawablePadding="15dp"
+                android:drawableRight="@drawable/jiantou"
+                android:gravity="center_vertical"
+                android:text="我的好友"
+                android:textColor="@drawable/selector_text_press_color"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/gainsboro" />
+
+            <TextView
+                android:id="@+id/my_shangcheng"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:clickable="true"
+                android:drawableLeft="@drawable/icon_jifen"
+                android:drawablePadding="15dp"
+                android:drawableRight="@drawable/jiantou"
+                android:gravity="center_vertical"
+                android:text="我的积分商城"
+                android:textColor="@drawable/selector_text_press_color"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/gainsboro" />
+
+            <TextView
+                android:id="@+id/my_qianbao"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:clickable="true"
+                android:drawableLeft="@drawable/cebian_qianbao"
+                android:drawablePadding="15dp"
+                android:drawableRight="@drawable/jiantou"
+                android:gravity="center_vertical"
+                android:text="我的钱包"
+                android:textColor="@drawable/selector_text_press_color"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/gainsboro" />
+
+            <TextView
+                android:id="@+id/my_dingdan"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:clickable="true"
+                android:drawableLeft="@drawable/icon_dingdan"
+                android:drawablePadding="15dp"
+                android:drawableRight="@drawable/jiantou"
+                android:gravity="center_vertical"
+                android:text="我的订单"
+                android:textColor="@drawable/selector_text_press_color"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/gainsboro" />
+
+            <TextView
+                android:id="@+id/my_shezhi"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:clickable="true"
+                android:drawableLeft="@drawable/icon_she"
+                android:drawablePadding="15dp"
+                android:drawableRight="@drawable/jiantou"
+                android:gravity="center_vertical"
+                android:text="设置"
+                android:textColor="@drawable/selector_text_press_color"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+</RelativeLayout>

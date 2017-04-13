@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/orange">
+
+        <TextView
+            android:id="@+id/text_anquan"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/ic_chevron_left_black_24dp"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:text="账号安全"
+            android:textColor="@drawable/selector_text_press_back"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="10dp"
+    android:background="@color/gainsboro" />
+
+    <TextView
+        android:id="@+id/anquan_shouji"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:drawablePadding="15dp"
+        android:drawableRight="@drawable/jiantou"
+        android:gravity="center_vertical"
+        android:text="密保手机"
+        android:textColor="@drawable/selector_text_press_color"
+        android:textSize="20dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gainsboro" />
+
+    <TextView
+        android:id="@+id/anquan_youxiang"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:drawablePadding="15dp"
+        android:drawableRight="@drawable/jiantou"
+        android:gravity="center_vertical"
+        android:text="密保邮箱"
+        android:textColor="@drawable/selector_text_press_color"
+        android:textSize="20dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/gainsboro" />
+
+    <TextView
+        android:id="@+id/anquan_xiugaimima"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:drawablePadding="15dp"
+        android:drawableRight="@drawable/jiantou"
+        android:gravity="center_vertical"
+        android:text="修改密码"
+        android:textColor="@drawable/selector_text_press_color"
+        android:textSize="20dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gainsboro" />
+
+    <TextView
+        android:id="@+id/anquan_zhifumima"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:drawablePadding="15dp"
+        android:drawableRight="@drawable/jiantou"
+        android:gravity="center_vertical"
+        android:text="支付密码"
+        android:textColor="@drawable/selector_text_press_color"
+        android:textSize="20dp" />
+</LinearLayout>

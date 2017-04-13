@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <TextView
+            android:paddingTop="35dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/people_new"
+            android:gravity="center"
+            android:text="排期表"
+            android:textColor="@drawable/selector_text_press_color"
+            android:id="@+id/textView19" />
+
+        <TextView
+            android:paddingTop="30dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/people_rehuo"
+            android:gravity="center"
+            android:text="分类"
+            android:textColor="@drawable/selector_text_press_color"
+            android:id="@+id/textView3" />
+
+        <TextView
+            android:paddingTop="24dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/people_tuijian"
+            android:gravity="center"
+            android:text="文章"
+            android:textColor="@drawable/selector_text_press_color"/>
+        <TextView
+            android:paddingTop="30dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/people_rehuo"
+            android:gravity="center"
+            android:text="商城"
+            android:textColor="@drawable/selector_text_press_color"/>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relavite_quan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/page3" />
+
+        <TextView
+            android:id="@+id/text_yuedu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/list_image"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:drawableLeft="@drawable/yuedu"
+            android:text="1122"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/text_mrgb"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/list_image"
+            android:gravity="center_vertical"
+            android:text="文章：麻仁锅巴"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_xdsj"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/text_mrgb"
+            android:text="作者：新的世界" />
+
+        <TextView
+            android:id="@+id/text_pinglu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/text_yuedu"
+            android:layout_alignBottom="@+id/text_yuedu"
+            android:layout_marginLeft="22dp"
+            android:layout_marginStart="22dp"
+            android:layout_toEndOf="@+id/text_yuedu"
+            android:layout_toRightOf="@+id/text_yuedu"
+            android:drawableLeft="@drawable/pinglun"
+            android:text="1122"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+</RelativeLayout>

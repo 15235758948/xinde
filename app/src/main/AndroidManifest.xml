@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.myapplication">
+
+    <application
+        android:name=".Appllication"
+        android:allowBackup="true"
+        android:icon="@drawable/p2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name="base.toor.click.Toor_gengduo" />
+        <activity android:name="base.toor.click.Toor_xiaoxitx" />
+        <activity android:name="base.toor.click.toor_xiazai.TitleDownActivity" />
+        <activity android:name=".drawerLayout.Drawer_pinLun" />
+        <activity android:name=".drawerLayout.Drawer_friends" />
+        <activity android:name=".drawerLayout.Drawer_dashang" />
+        <activity android:name=".drawerLayout.Drawer_shoucang" />
+        <activity android:name="base.toor.click.toor_sousuo.TitleSeekActivity" />
+        <activity android:name=".drawerLayout.mymoney.Drawer_qianbao"></activity>
+        <activity android:name=".My.MySeeHistory"></activity>
+        <activity android:name=".My.MyDingYue"></activity>
+        <activity android:name=".My.MyQuanZi"></activity>
+        <activity android:name=".drawerLayout.Drawer_friends_two"></activity>
+        <activity android:name=".My.MyShop"></activity>
+        <activity android:name=".My.MyBuy"></activity>
+        <activity android:name=".My.MySheZhi"></activity>
+        <activity android:name=".My.MySheZhi_AnQuan"></activity>
+        <activity android:name=".My.RegisterActivity"></activity>
+        <activity android:name=".My.DailyTopicActivity"></activity>
+        <activity android:name=".My.DailyTopicTwoActivity"></activity>
+    </application>
+
+</manifest>

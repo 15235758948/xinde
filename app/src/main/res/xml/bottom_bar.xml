@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        icon="@drawable/end_home_black"
+        id="@+id/tab_home"
+        title="首页" />
+    <tab
+        icon="@drawable/end_movie_black"
+        id="@+id/tab_im"
+        title="影视" />
+    <tab
+        icon="@drawable/end_more_black"
+        id="@+id/tab_more" />
+    <tab
+        icon="@drawable/end_interest_black"
+        id="@+id/tab_interest"
+        title="圈子" />
+    <tab
+        icon="@drawable/end_person_black"
+        id="@+id/tab_user"
+        title="我的" />
+</tabs>

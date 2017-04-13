@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:checkableBehavior="single">
+        <item
+            android:id="@+id/book_pingLun"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="评论" />
+        <item
+            android:id="@+id/book_daShang"
+            android:icon="@drawable/cebian_dashang"
+            android:title="打赏" />
+        <item
+            android:id="@+id/book_pengYou"
+            android:icon="@drawable/cebian_fensi"
+            android:title="朋友" />
+        <item
+            android:id="@+id/book_qianBao"
+            android:icon="@drawable/cebian_qianbao"
+            android:title="钱包" />
+        <item
+            android:id="@+id/book_huoDong"
+            android:icon="@drawable/cebian_huodong"
+            android:title="活动" />
+        <item
+            android:id="@+id/book_gouWu"
+            android:icon="@drawable/cebian_gouwu"
+            android:title="购物" />
+        <item
+            android:id="@+id/book_shouCang"
+            android:icon="@drawable/cebian_shoucang"
+            android:title="我的收藏" />
+        <item
+            android:id="@+id/book_wuLiu"
+            android:icon="@drawable/cebian_wuliu"
+            android:title="物流" />
+
+    </item>
+</menu>
