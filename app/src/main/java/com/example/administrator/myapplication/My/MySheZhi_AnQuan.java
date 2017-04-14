@@ -1,6 +1,7 @@
 package com.example.administrator.myapplication.My;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -25,6 +26,7 @@ public class MySheZhi_AnQuan extends Activity {
     TextView anquanXiugaimima;
     @BindView(R.id.anquan_zhifumima)
     TextView anquanZhifumima;
+    private  Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,9 +45,11 @@ public class MySheZhi_AnQuan extends Activity {
             case R.id.text_anquan:
                 finish();
                 break;
-//            case R.id.anquan_shouji:
-//
-//                break;
+            case R.id.anquan_shouji:
+                intent = new Intent(this, AnQuan_ShouJi.class);
+                startActivity(intent);
+
+                break;
 //            case R.id.anquan_youxiang:
 //                break;
 //            case R.id.anquan_xiugaimima:

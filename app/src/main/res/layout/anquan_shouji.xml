@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/orange">
+
+        <TextView
+            android:id="@+id/anquan_bangding"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/ic_chevron_left_black_24dp"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:text="绑定手机"
+            android:textColor="@drawable/selector_text_press_back"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="20dp"
+        android:text="        尊敬的用户，绑定手机后可用手机号登录，同时保障您的账号安全。"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <EditText
+            android:id="@+id/shouji_editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_bg"
+            android:hint="请输入手机号"
+            android:padding="10dp"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <EditText
+            android:id="@+id/yanzhengma_val"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="2"
+            android:background="@drawable/edit_bg"
+            android:hint="请输入验证码"
+            android:padding="10dp"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/yanzhengma_img"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="2"
+            android:padding="10dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <Button
+            android:id="@+id/yanzhengma_huan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@color/orange"
+            android:padding="10dp"
+            android:text="看不清楚"
+            android:layout_marginRight="10dp"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <EditText
+            android:id="@+id/shouji_editText2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="2"
+            android:background="@drawable/edit_bg"
+            android:hint="请输入短信验证码"
+            android:padding="10dp"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn_login_submit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@color/orange"
+            android:text="获取"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:background="@color/orange"
+        android:text="确定"
+        android:textColor="#ffffff" />
+</LinearLayout>
